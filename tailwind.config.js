@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const nativewind = require("nativewind/tailwind");
+const nativewind = require("tailwindcss-react-native/babel");
 
 module.exports = {
   presets: [nativewind],
